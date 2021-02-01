@@ -36,7 +36,7 @@ function TekkenGuide({characters, setUpdatedCharacter,userAuthenticated, updateC
   return (
     <div>
       <div className="title-container1"><h1>Tekken Guides</h1></div>    
-      <Grid container spacing={4} direction="row" justify="space-evenly" alignItems="center" className="grid-container" style={{width: "100%", margin: "80px 0px"}}>
+      <Grid container spacing={4} direction="row" justifyItems="space-evenly" alignItems="center" className="grid-container" style={{width: "100%", padding: "80px 80px 0"}}>
       {characters.map((character, index) => (
         <Grid item lg={3}>       
         <Card className="cardRoot" data-aos="flip-left">

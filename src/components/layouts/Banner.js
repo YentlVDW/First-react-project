@@ -15,7 +15,7 @@ function Banner({loggedIn, users, setVisibility, setVisibilityRegister}) {
             Morbi fringilla eros ut lacus vehicula, ac facilisis leo elementum. Integer ornare facilisis fermentum. Praesent convallis, sapien quis ultricies porttitor,
              lacus erat venenatis leo, quis bibendum purus velit vitae tortor. Donec volutpat nulla ex, consectetur lacinia erat eleifend eu. Sed blandit vestibulum aliquam.
             </article>                  
-            {loggedIn === true ? null : <button onClick={() => {setVisibility(true)}}>Sign in</button>}
+            {loggedIn === true ? null : <button onClick={() => setVisibility(true)}>Sign in</button>}
             <button onClick={() => setVisibilityRegister(true)}>Register</button>
           </div>
           <div className="bannerImage">
