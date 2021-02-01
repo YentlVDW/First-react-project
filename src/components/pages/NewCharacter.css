@@ -1,0 +1,82 @@
+.characterForm{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    margin: 0; 
+}
+.characterForm p{
+    float: right;
+    font-size: 1.2rem;
+    color: red;
+}
+span{
+    float: right;
+    font-weight: lighter;
+    cursor: pointer;
+    padding: 20px 30px;
+    font-size: 2.0rem;
+}
+.characterForm form{
+    padding: 20px;
+    text-align: center;
+    width: 1000px;
+    height: fit-content;
+}
+.characterForm input, textarea, button{
+    border: solid 1px;
+}
+input[type=file]{
+    border: initial;
+}
+form img{
+    width: 400px;
+    float: left;
+    margin-left: 30px;
+    height: 450px;
+    object-fit: cover;
+}
+.characterName{
+    text-align: left;
+}
+.characterName input{
+    width: 150px;
+}
+.characterForm form legend{
+    text-align: left;
+}
+.keymove, .blockpunish{
+    display: inline-block;
+    text-align: right;
+    
+}
+.keymove input, .blockpunish input, .difficulty input{
+    font-size: 0.8rem;
+    width: 30px;
+}
+.keymove .commandinput, .blockpunish .commandinput{
+    width: 80px;
+}
+.difficulty{
+    margin-top: 30px;
+    display: inline-block;
+}
+.description{
+    margin-top: 10px;
+}
+.description textarea{
+    font-size: 1.0rem;
+    margin-top: 20px;
+    padding: 10px;
+    resize: none;
+}
+.newMove{
+    cursor: pointer;
+}

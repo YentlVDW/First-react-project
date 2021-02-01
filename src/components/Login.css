@@ -1,0 +1,57 @@
+.login{
+    position: fixed;
+    animation: loginanimation 0.5s forwards;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+@keyframes loginanimation{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.login form{
+    border: solid 2px black;
+    background-color: white;
+    width: 350px;
+    height: 500px;
+    border-radius: 10px;
+
+}
+.form-input{
+    text-align: center;
+    margin-top: 100px;
+}
+.login span{
+    float: right;
+    font-weight: lighter;
+    cursor: pointer;
+    padding: 20px 20px;
+    font-size: 2.0rem;
+}
+form input{
+    padding: 5px;
+    width: 250px;
+    margin: 15px;
+}
+form button{
+    width: 150px;
+    cursor: pointer;
+    margin-top: 30px;
+    border-radius: 8px;
+    border: 1px solid #797979;
+    background-color: white;
+    padding: 10px;
+    color: black;
+}
+form legend{
+    font-size: 1.5rem;
+    text-decoration: underline;
+    padding-bottom: 3px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+}

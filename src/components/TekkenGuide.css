@@ -1,0 +1,23 @@
+.grid-container{
+    padding: 0px 30px;
+}
+.cardRoot{
+    max-width: 500px;
+}
+.cardMedia{
+    height: 300px;
+}
+.title-container1{
+    width: 100%;
+    background-color:#0D1B24;
+}
+.title-container1 h1{
+    font-size: 4.0rem;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    margin-left: 100px;
+}
+a{
+    text-decoration: none;
+}
